@@ -1,0 +1,13 @@
+print("1. If the salary is below 2.5 lacs n/2. If the salary is between 2.5 snd 5 lacs. n/3. If the salary is above 5 lacs.")
+choice==int(input("Enter your choice:")
+a=float(input("Enter your salary")
+if choice==1:
+  print("No income tax for you!")
+elif choice==2:
+  x=0.05*a
+  print(" Your income tax is",x)
+elif choice==3:
+  y=0.1*a
+  print("Your income tax is",y)
+else :
+  print("Enter a valid choice.")
